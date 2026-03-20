@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rakshanda Talwekar | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Icons (Font Awesome) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Scroll to top button -->
+  <button id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">&lt;/&gt;</span>
+        <span class="logo-text">Rakshanda</span>
+      </div>
+
+      <nav class="nav" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#training" class="nav-link">Training</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-orbit hero-orbit-1"></div>
+      <div class="hero-orbit hero-orbit-2"></div>
+      <div class="hero-orbit hero-orbit-3"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-content" data-reveal="fade-up">
+        <p class="hero-location">
+          <i class="fa-solid fa-location-dot"></i>
+          Wardha, Maharashtra, India
+        </p>
+        <h1 class="hero-title">Rakshanda Talwekar</h1>
+        <p class="hero-subtitle">
+          Computer Science Student | Data Science &amp; ML Enthusiast | Full Stack Developer
+        </p>
+        <p class="hero-tagline">
+          "Passionate about building scalable applications, data-driven solutions, and solving real-world
+          problems using modern technologies."
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="hero-social">
+          <a href="mailto:rakshandatalwekar@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+917666246429" aria-label="Phone">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/rakshanda280305" target="_blank" rel="noreferrer"
+            aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Rakshanda-05" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <div class="scroll-indicator">
+          <span>Scroll</span>
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero image / Illustration -->
+      <div class="hero-visual" data-reveal="fade-left">
+        <div class="hero-card">
+          <div class="hero-avatar-circle">
+            <div class="hero-avatar-inner">
+              <span class="avatar-initials">RT</span>
+            </div>
+          </div>
+          <div class="hero-card-body">
+            <p class="hero-card-label">Computer Science &amp; Data Science</p>
+            <p class="hero-card-name">Rakshanda Talwekar</p>
+            <p class="hero-card-role">Full Stack Developer · Data &amp; ML Enthusiast</p>
+
+            <div class="hero-card-meta">
+              <div>
+                <span class="meta-label">Based in</span>
+                <span class="meta-value">Wardha, India</span>
+              </div>
+              <div>
+                <span class="meta-label">Focus</span>
+                <span class="meta-value">Scalable Apps &amp; Data</span>
+              </div>
+            </div>
+
+            <div class="hero-card-tags">
+              <span>Python</span>
+              <span>Data Science</span>
+              <span>Full Stack</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">About</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+          A brief introduction to who I am, what I do, and what drives my work.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text card" data-reveal="fade-right">
+          <p>
+            I am a Computer Science student specializing in Data Science and Machine Learning, with a strong
+            foundation in software development and problem solving. I have hands-on experience working with
+            <strong>Python</strong>, <strong>Java</strong>, <strong>SQL</strong>, and <strong>REST APIs</strong>,
+            along with various data analysis tools and libraries. I enjoy designing and building scalable,
+            user-centric applications that are both robust and intuitive.
+          </p>
+          <p>
+            My interests span across <strong>software development</strong>, <strong>data analysis</strong>,
+            <strong>machine learning</strong>, and <strong>backend engineering</strong>. I am passionate about
+            transforming complex real-world problems into efficient, maintainable solutions, while continuously
+            learning and exploring modern technologies to improve my craft.
+          </p>
+        </div>
+
+        <div class="about-highlight" data-reveal="fade-left">
+          <div class="about-stats card">
+            <div>
+              <span class="about-stat-number">3+</span>
+              <span class="about-stat-label">Major Domains</span>
+            </div>
+            <div>
+              <span class="about-stat-number">Full Stack</span>
+              <span class="about-stat-label">Development</span>
+            </div>
+            <div>
+              <span class="about-stat-number">Data</span>
+              <span class="about-stat-label">Science &amp; ML</span>
+            </div>
+          </div>
+
+          <div class="about-contact card">
+            <h3>Quick Info</h3>
+            <ul>
+              <li><strong>Location:</strong> Wardha, Maharashtra, India</li>
+              <li><strong>Email:</strong> <a href="mailto:rakshandatalwekar@gmail.com">rakshandatalwekar@gmail.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+917666246429">+91-7666246429</a></li>
+              <li><strong>Open to:</strong> Internships · Projects · Collaborations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-alt">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">Skills</span>
+        <h2 class="section-title">Technical &amp; Soft Skills</h2>
+        <p class="section-subtitle">
+          A snapshot of the technologies, tools, and capabilities I bring to every project.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card card" data-reveal="fade-up">
+          <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-card card" data-reveal="fade-up" data-delay="100">
+          <h3><i class="fa-solid fa-globe"></i> Web Technologies</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-card card" data-reveal="fade-up" data-delay="150">
+          <h3><i class="fa-solid fa-diagram-project"></i> Libraries &amp; Frameworks</h3>
+          <ul>
+            <li>Flask</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Seaborn</li>
+            <li>Matplotlib</li>
+            <li>Tkinter</li>
+          </ul>
+        </div>
+
+        <div class="skill-card card" data-reveal="fade-up">
+          <h3><i class="fa-solid fa-toolbox"></i> Tools &amp; Platforms</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>Power BI</li>
+            <li>Tableau</li>
+            <li>Excel</li>
+            <li>Linux</li>
+            <li>Jupyter Notebook</li>
+            <li>Google Colab</li>
+            <li>PyCharm</li>
+            <li>VS Code</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+
+        <div class="skill-card card" data-reveal="fade-up" data-delay="100">
+          <h3><i class="fa-solid fa-microchip"></i> Core Computer Science</h3>
+          <ul>
+            <li>Data Structures &amp; Algorithms</li>
+            <li>DBMS</li>
+            <li>Operating Systems</li>
+            <li>Computer Networks</li>
+            <li>SQL Normalization</li>
+          </ul>
+        </div>
+
+        <div class="skill-card card" data-reveal="fade-up" data-delay="150">
+          <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Logical Thinking</li>
+            <li>Leadership</li>
+            <li>Decision Making</li>
+            <li>Collaboration</li>
+            <li>Time Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">Projects</span>
+        <h2 class="section-title">Featured Work</h2>
+        <p class="section-subtitle">
+          Selected projects highlighting my experience across full stack development and software engineering.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card card project-tilt" data-reveal="fade-right">
+          <div class="project-badge">Full Stack</div>
+          <h3 class="project-title">URL Shortener System</h3>
+          <p class="project-description">
+            A full-stack web application that generates compact shareable URLs with a RESTful backend and
+            JSON-based storage.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>JSON</span>
+            <span>Postman</span>
+          </div>
+          <ul class="project-features">
+            <li>Short URL generation</li>
+            <li>Real-time redirection</li>
+            <li>Backend REST API</li>
+            <li>JSON-based storage</li>
+            <li>API testing using Postman</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-status">
+              <i class="fa-solid fa-circle"></i> Personal Project
+            </span>
+          </div>
+        </article>
+
+        <article class="project-card card project-tilt" data-reveal="fade-left">
+          <div class="project-badge project-badge-secondary">Desktop App</div>
+          <h3 class="project-title">Hotel Management System</h3>
+          <p class="project-description">
+            A GUI-based hotel management system that automates room booking, customer tracking, and basic
+            administration tasks.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Tkinter</span>
+            <span>PyCharm</span>
+            <span>Git</span>
+          </div>
+          <ul class="project-features">
+            <li>Room booking management</li>
+            <li>Customer registration</li>
+            <li>Authentication and validation</li>
+            <li>Tkinter-based GUI interface</li>
+            <li>Unit and system testing</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-status">
+              <i class="fa-solid fa-circle"></i> Academic Project
+            </span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training Section -->
+  <section id="training" class="section section-alt">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">Training</span>
+        <h2 class="section-title">Professional Training</h2>
+        <p class="section-subtitle">
+          Structured learning experiences that strengthened my fundamentals and problem-solving skills.
+        </p>
+      </div>
+
+      <div class="timeline-card card" data-reveal="fade-up">
+        <div class="timeline-header">
+          <div>
+            <h3>Logic Building, Programming &amp; Data Structures</h3>
+            <p class="timeline-institution">Lovely Professional University</p>
+          </div>
+          <span class="timeline-duration">June 2025 – July 2025</span>
+        </div>
+        <div class="timeline-body">
+          <p>
+            Intensive training focused on strengthening core programming concepts, algorithmic thinking, and data
+            structure implementation with a problem-solving mindset.
+          </p>
+          <div class="timeline-tags">
+            <span>C++</span>
+            <span>OOP</span>
+            <span>Data Structures</span>
+            <span>Algorithms</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">Certifications</span>
+        <h2 class="section-title">Certified Learning</h2>
+        <p class="section-subtitle">
+          Recognized certifications that validate my skills across development and computer science.
+        </p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card card" data-reveal="fade-up">
+          <h3>Logic Building, Programming and Data Structures</h3>
+          <p class="cert-provider">Lovely Professional University</p>
+          <p class="cert-meta">Focus on core programming and data structure design.</p>
+        </div>
+        <div class="cert-card card" data-reveal="fade-up" data-delay="100">
+          <h3>Backend Web Development</h3>
+          <p class="cert-provider">DevTown</p>
+          <p class="cert-meta">Hands-on backend development using modern web technologies.</p>
+        </div>
+        <div class="cert-card card" data-reveal="fade-up" data-delay="150">
+          <h3>Responsive Web Design Developer</h3>
+          <p class="cert-provider">freeCodeCamp</p>
+          <p class="cert-meta">Modern responsive UI development with semantic HTML &amp; CSS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section section-alt">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">Achievements</span>
+        <h2 class="section-title">Achievements &amp; Leadership</h2>
+        <p class="section-subtitle">
+          Experiences that highlight my leadership, collaboration, and performance beyond academics.
+        </p>
+      </div>
+
+      <div class="achievements-grid">
+        <div class="achievement-card card" data-reveal="fade-right">
+          <h3>One India One World</h3>
+          <p class="achievement-meta">Secured 2nd place representing Madhya Pradesh culture.</p>
+          <p>
+            Contributed to planning, coordination, and execution of a cultural representation, showcasing strong
+            collaboration, presentation, and leadership skills.
+          </p>
+        </div>
+        <div class="achievement-card card" data-reveal="fade-left">
+          <h3>Spectra Youth Festival</h3>
+          <p class="achievement-meta">Coordinated team and secured 1st place overall.</p>
+          <p>
+            Led a diverse team, managed responsibilities under time constraints, and ensured effective teamwork to
+            achieve top performance at the festival.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+        <p class="section-subtitle">
+          A structured academic journey focused on computer science, engineering, and data-driven problem solving.
+        </p>
+      </div>
+
+      <div class="edu-grid">
+        <div class="edu-card card" data-reveal="fade-up">
+          <div class="edu-header">
+            <h3>Lovely Professional University</h3>
+            <span class="edu-duration">Aug 2023 – Present</span>
+          </div>
+          <p class="edu-degree">B.Tech Computer Science and Engineering</p>
+          <p class="edu-specialization">Specialization: Data Science with Machine Learning</p>
+          <p class="edu-grade">CGPA: 7.1</p>
+        </div>
+        <div class="edu-card card" data-reveal="fade-up" data-delay="100">
+          <div class="edu-header">
+            <h3>Jijamata Junior College</h3>
+            <span class="edu-duration">2022 – 2023</span>
+          </div>
+          <p class="edu-degree">Intermediate – Science</p>
+          <p class="edu-grade">Percentage: 63.6%</p>
+        </div>
+        <div class="edu-card card" data-reveal="fade-up" data-delay="150">
+          <div class="edu-header">
+            <h3>Agragami Convent School</h3>
+            <span class="edu-duration">2020 – 2021</span>
+          </div>
+          <p class="edu-degree">Matriculation</p>
+          <p class="edu-grade">Percentage: 82%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-alt">
+    <div class="container section-inner">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow">Contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Whether you have an opportunity, a project idea, or just want to say hello, feel free to reach out.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info card" data-reveal="fade-right">
+          <h3>Contact Details</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:rakshandatalwekar@gmail.com">rakshandatalwekar@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+917666246429">+91-7666246429</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/rakshanda280305" target="_blank" rel="noreferrer">
+                LinkedIn Profile
+              </a>
+            </li>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/Rakshanda-05" target="_blank" rel="noreferrer">
+                GitHub Profile
+              </a>
+            </li>
+          </ul>
+          <p class="contact-note">
+            I am open to internships, freelance opportunities, and collaborative projects in software development and
+            data science.
+          </p>
+        </div>
+
+        <form id="contactForm" class="contact-form card" novalidate data-reveal="fade-left">
+          <div class="form-group">
+            <label for="name">Name<span>*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email<span>*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="yourname@example.com"
+              required
+            />
+            <small class="error-msg"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message<span>*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Share a brief overview of your project or query"
+              required
+            ></textarea>
+            <small class="error-msg"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Send Message
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Rakshanda Talwekar. All rights reserved.
+        </p>
+        <p class="footer-location">
+          <i class="fa-solid fa-location-dot"></i>
+          Wardha, Maharashtra, India
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#hero">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="mailto:rakshandatalwekar@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rakshanda280305" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Rakshanda-05" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
